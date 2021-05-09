@@ -57,12 +57,15 @@ img {
   margin-right: auto;
 }
 
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .page-header .container {
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .nav {
@@ -426,6 +429,12 @@ img {
   padding-bottom: 94px;
 }
 
+.block-clients {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .title-clients {
   font-family: Roboto;
   font-weight: 700;
@@ -447,11 +456,6 @@ img {
 
 .logo-clients-item:last-child {
   margin-right: 0;
-}
-
-.logo-clients-item:hover,
-.logo-clients-item:focus {
-  border: 1px solid var(--accent-color);
 }
 
 .logo-clients-icon {
@@ -597,6 +601,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  width: 1200px;
 }
 
 .socials {
@@ -691,6 +696,6 @@ img {
   border-radius: 50%;
 }
 
-.close-icon {
+.close-black-icon {
   fill: #212121;
 }
